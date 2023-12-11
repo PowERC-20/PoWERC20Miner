@@ -31,4 +31,5 @@ jobs:
         goversion: "https://go.dev/dl/go1.21.1.linux-amd64.tar.gz"
         project_path: "./"
         binary_name: "powerc20miner"
+        ldflags: -s -w
 
