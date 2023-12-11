@@ -18,7 +18,7 @@ This Go project is a fully-functional tool for participating in Ethereum's PoWER
 3. **Dependency Installation**: Run `go get` to install the necessary dependencies.
 4. **Build the Project**:
    - Navigate to the project directory.
-   - Run `go build -o PoWERC20Miner` to build the executable.
+   - Run `go build -o Powerc20Worker` to build the executable.
 
 ## Usage
 
@@ -27,8 +27,8 @@ This Go project is a fully-functional tool for participating in Ethereum's PoWER
    - Adjust the number of mining workers as needed.
 
 2. **Running the Tool**:
-   - Launch the tool by executing `./PoWERC20Miner` in your terminal.
-   - You can use optional flags for specific configurations, for example: `./PoWERC20Miner -privateKey YOUR_PRIVATE_KEY -contractAddress CONTRACT_ADDRESS -workerCount NUMBER_OF_WORKERS`.
+   - Launch the tool by executing `./Powerc20Worker` in your terminal.
+   - You can use optional flags for specific configurations, for example: `./Powerc20Worker -privateKey YOUR_PRIVATE_KEY -contractAddress CONTRACT_ADDRESS -workerCount NUMBER_OF_WORKERS`.
 
 ## Contributing
 
