@@ -183,7 +183,7 @@ func main() {
 		if err != nil {
 			logger.Fatalf("Failed to mine the transaction: %v", err)
 		}
-		logger.Info(color.GreenString("Mining transaction successfully confirmed, Transaction Hash: %s"), color.CyanString(receipt.TxHash.Hex()))
+		logger.Infof(color.GreenString("Mining transaction successfully confirmed, Transaction Hash: %s"), color.CyanString(receipt.TxHash.Hex()))
 
 	case err := <-errorChan:
 		cancel()
