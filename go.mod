@@ -1,4 +1,4 @@
-module powerc20miner
+module Powerc20Worker
 
 go 1.21.4
 
