@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"powerc20miner/abi"
+	"Powerc20Worker/abi"
 
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
