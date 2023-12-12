@@ -13,7 +13,7 @@ This Go project is a fully-functional tool for participating in Ethereum's PoWER
 
 ## Installation and Setup
 
-1. **Install Go**: Ensure Go is installed on your system.
+1. **Install Go**: Ensure Go 1.21.x is installed on your system.
 2. **Clone the Repository**: Download this repository to your local machine.
 3. **Dependency Installation**: Run `go get` to install the necessary dependencies.
 4. **Build the Project**:
