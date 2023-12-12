@@ -29,6 +29,10 @@ This Go project is a fully-functional tool for participating in Ethereum's PoWER
 2. **Running the Tool**:
    - Launch the tool by executing `./Powerc20Worker` in your terminal.
    - You can use optional flags for specific configurations, for example: `./Powerc20Worker -privateKey YOUR_PRIVATE_KEY -contractAddress CONTRACT_ADDRESS -workerCount NUMBER_OF_WORKERS`.
+  
+## Declare
+
+The project code is completely open source. The released version is compiled using Github Actions. If you have any questions about the code, please feel free to raise them or submit the code for security auditing anywhere.
 
 ## Contributing
 
